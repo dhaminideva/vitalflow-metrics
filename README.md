@@ -8,11 +8,12 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 
+
 <table>
 <tr>
-<td><img src="Screenshot 2025-11-02 102358" src="https://github.com/user-attachments/assets/3f48acd9-3952-40b9-b652-9699d92f585d" alt="landing page" width="400"/></td>
+<td><img src="https://github.com/user-attachments/assets/3f48acd9-3952-40b9-b652-9699d92f585d" alt="landing page" width="400"/></td>
 
-<td><img src="https://github.com/user-attachments/assets/d7e61280-2de3-4f45-ae38-9b6c32988951" alt="vital" width="400"/></td>
+<td><img src="https://github.com/user-attachments/assets/d7e61280-2de3-4f45-ae38-9b6c32988951" alt="metrics" width="400"/></td>
 </tr>
 </table>
 ---
