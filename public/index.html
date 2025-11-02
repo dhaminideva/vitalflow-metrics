@@ -1,0 +1,64 @@
+<!doctype html>
+<link rel="icon" href="/favicon.svg">
+<link rel="stylesheet" href="/styles.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+<img src="/favicon.svg" class="logo" alt="VitalFlow" />
+<h1>VitalFlow Metrics</h1>
+<span class="env">Demo</span>
+</header>
+
+
+<main class="container">
+<section class="kpis">
+<div class="kpi"><span id="rev">$0</span><label>Revenue (90d)</label></div>
+<div class="kpi"><span id="orders">0</span><label>Orders</label></div>
+<div class="kpi"><span id="aov">$0</span><label>AOV</label></div>
+<div class="kpi"><span id="mrr">$0</span><label>MRR</label></div>
+<div class="kpi"><span id="arr">$0</span><label>ARR</label></div>
+<div class="kpi"><span id="churn">0%</span><label>Churn (logo)</label></div>
+</section>
+
+
+<section class="grid">
+<div class="card">
+<h3>Product Mix (Revenue)</h3>
+<canvas id="mixChart"></canvas>
+</div>
+
+
+<div class="card">
+<h3>Subscriptions by Cohort (Start Month)</h3>
+<canvas id="cohortChart"></canvas>
+</div>
+
+
+<div class="card">
+<h3>Active Subscriptions</h3>
+<div id="subsList" class="list"></div>
+</div>
+
+
+<div class="card">
+<h3>Power BI (Embed Placeholder)</h3>
+<p>Paste your <strong>Embed URL</strong> & <strong>Embed Token</strong> then click <em>Load</em>.</p>
+<div class="pbi">
+<input id="pbiUrl" placeholder="Embed URL" />
+<input id="pbiToken" placeholder="Embed Token (not persisted)" />
+<button id="pbiLoad">Load</button>
+<iframe id="pbiFrame" title="Power BI" loading="lazy"></iframe>
+</div>
+</div>
+</section>
+</main>
+
+
+<footer class="footer">© VitalFlow Demo • Node + Express • Vanilla JS</footer>
+
+
+<script src="/app.js"></script>
+<script src="/powerbi.js"></script>
+</body>
+</html>
